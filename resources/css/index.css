@@ -1,3 +1,222 @@
-body {
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+      width: 100 %;
+      background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(backgroundstore.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 130vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+.icon{
+    width: 100px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: pink;
+    font-size: 35px;
+    font-family: monospace;
+    padding-left: 0px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+       list-style: none;
+       margin-left:  60px;
+       margin-top: 25px;
+       font-size: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: orange;
+    font-family: monospace;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: white;
+}
+
+.search{
+    width: 250px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: serif;
+    width: 150px ;
+    height: 30px ;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: #000;
+    border-right: none;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.btn{
+    width: 70px;
+    height: 30px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    color: white;
+   
+}
+
+.form{
+    width: 215px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 150px;
+    left: 1080px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+
+.form h2 {
+    width:180px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    font-family: monospace;
+    background-color: white;
+     border-radius: 20px;
+     margin: 10px;
+
+}
+
+.form input{
+    width: 230px;
+    height: 35px;
+    background: none;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: cyan;
+    font-size: 15px;    
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+ 
+::placeholder{
+    color: darkorchid;
+    font-family: sans-serif;
+}
+
+.btnn{
+    width: 235px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.btnn:hover{
+    background: white;
+    color: orange;
+}
+   
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: initial;   
+}
+
+.form .link{
+    font-family: serif;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.form .link a{ 
+    text-decoration: none;
+    color: orange;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.icon ion-icon{
+    color: white;
+    font-size: 25px;
+    padding-left:15px;
+    padding-top: 2px;
+}
+    
+.icon ion-icon:hover{
+    color: orange;
 }
